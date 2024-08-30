@@ -15,5 +15,5 @@ then
     echo " git is not installed then install it"
     dnf install git -y
 else
-    echo "git is already installed nothing to do...'
+    echo "git is already installed nothing to do..."
 fi   
