@@ -8,4 +8,12 @@ then
     echo "please run this script root priveleges"
 fi
 
-dnf install git
+dnf list install git
+
+if [ $? -ne o ]
+then 
+    echo " git is not installed then install it"
+    dnf install git -y
+else
+    echo "git is already installed nothing to do...'
+fi   
