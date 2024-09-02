@@ -6,3 +6,5 @@ if [ $USERID -ne 0 ]
 then
     echo " this script run root previleges"
 fi
+
+ dnf install git -y
